@@ -3,6 +3,6 @@ Version:2 jobs:
   build:
    docker:
     - image: circleCI/ruby:2.4.1
-  steps:
+    steps:
     - checkout
     - run: echo "A first Hello"
